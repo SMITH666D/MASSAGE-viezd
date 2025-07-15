@@ -1,0 +1,571 @@
+{\rtf1\fbidis\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset204 Calibri;}{\f2\fnil\fcharset1 Segoe UI Emoji;}{\f3\fnil\fcharset1 Segoe UI Symbol;}{\f4\fnil Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\par
+<!DOCTYPE html>\par
+<html lang="ru">\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <title>\f1\lang1049\'cf\'f0\'ee\'f4\'e5\'f1\'f1\'e8\'ee\'ed\'e0\'eb\'fc\'ed\'fb\'e9 \'ec\'e0\'f1\'f1\'e0\'e6 \'f1 \'e2\'fb\'e5\'e7\'e4\'ee\'ec | \'c4\'e5-\'d4\'f0\'e8\'e7, \'c7\'e8\'ec\'e0 \'de\'e6\'ed\'e0\'ff</title>\par
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">\par
+    <style>\par
+        * \{\par
+            margin: 0;\par
+            padding: 0;\par
+            box-sizing: border-box;\par
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\par
+        \}\par
+        \par
+        body \{\par
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);\par
+            color: #333;\par
+            line-height: 1.6;\par
+            padding: 10px;\par
+        \}\par
+        \par
+        .container \{\par
+            max-width: 800px;\par
+            margin: 0 auto;\par
+            background: white;\par
+            border-radius: 20px;\par
+            overflow: hidden;\par
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);\par
+        \}\par
+        \par
+        /* \'d8\'e0\'ef\'ea\'e0 */\par
+        header \{\par
+            background: linear-gradient(135deg, #4a6fcb 0%, #6a93cb 100%);\par
+            color: white;\par
+            text-align: center;\par
+            padding: 30px 20px;\par
+            position: relative;\par
+        \}\par
+        \par
+        .logo \{\par
+            font-size: 3.5rem;\par
+            margin-bottom: 15px;\par
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);\par
+        \}\par
+        \par
+        h1 \{\par
+            font-size: 1.8rem;\par
+            margin-bottom: 10px;\par
+            font-weight: 700;\par
+        \}\par
+        \par
+        .subtitle \{\par
+            font-size: 1.1rem;\par
+            opacity: 0.9;\par
+            max-width: 600px;\par
+            margin: 0 auto;\par
+        \}\par
+        \par
+        .contact-badge \{\par
+            position: absolute;\par
+            top: 20px;\par
+            right: 20px;\par
+            background: white;\par
+            color: #4a6fcb;\par
+            padding: 8px 15px;\par
+            border-radius: 30px;\par
+            font-weight: 600;\par
+            font-size: 0.9rem;\par
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);\par
+        \}\par
+        \par
+        /* \'ce\'f1\'ed\'ee\'e2\'ed\'ee\'e9 \'ea\'ee\'ed\'f2\'e5\'ed\'f2 */\par
+        .section \{\par
+            padding: 25px;\par
+            border-bottom: 1px solid #f0f4ff;\par
+        \}\par
+        \par
+        h2 \{\par
+            color: #4a6fcb;\par
+            margin-bottom: 20px;\par
+            display: flex;\par
+            align-items: center;\par
+            gap: 10px;\par
+            font-size: 1.4rem;\par
+        \}\par
+        \par
+        h2 i \{\par
+            background: #f0f4ff;\par
+            width: 40px;\par
+            height: 40px;\par
+            border-radius: 50%;\par
+            display: flex;\par
+            align-items: center;\par
+            justify-content: center;\par
+        \}\par
+        \par
+        /* \'cf\'f0\'e0\'e9\'f1 */\par
+        .price-list \{\par
+            display: grid;\par
+            grid-template-columns: 1fr;\par
+            gap: 15px;\par
+        \}\par
+        \par
+        .price-item \{\par
+            display: flex;\par
+            justify-content: space-between;\par
+            padding: 15px;\par
+            background: #f8fbff;\par
+            border-radius: 12px;\par
+            border-left: 4px solid #4a6fcb;\par
+            transition: transform 0.3s;\par
+        \}\par
+        \par
+        .price-item:hover \{\par
+            transform: translateY(-3px);\par
+            box-shadow: 0 5px 15px rgba(74, 111, 203, 0.1);\par
+        \}\par
+        \par
+        .service-info \{\par
+            flex: 1;\par
+        \}\par
+        \par
+        .service-name \{\par
+            font-weight: 600;\par
+            margin-bottom: 5px;\par
+            color: #2c3e50;\par
+        \}\par
+        \par
+        .service-desc \{\par
+            font-size: 0.85rem;\par
+            color: #666;\par
+        \}\par
+        \par
+        .price-tag \{\par
+            font-weight: 700;\par
+            color: #e91e63;\par
+            font-size: 1.1rem;\par
+            min-width: 100px;\par
+            text-align: right;\par
+        \}\par
+        \par
+        .highlight \{\par
+            background: #fff8e1;\par
+            border-left-color: #ffc107;\par
+        \}\par
+        \par
+        .highlight .price-tag \{\par
+\par
+JOHNNY SMITH JOHNNY SMITH, [15.07.2025 21:28]\par
+color: #ff5722;\par
+        \}\par
+        \par
+        /* \'cf\'f0\'e5\'e8\'ec\'f3\'f9\'e5\'f1\'f2\'e2\'e0 */\par
+        .benefits-grid \{\par
+            display: grid;\par
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\par
+            gap: 20px;\par
+        \}\par
+        \par
+        .benefit-card \{\par
+            background: #f8fbff;\par
+            padding: 20px;\par
+            border-radius: 12px;\par
+            text-align: center;\par
+            transition: all 0.3s;\par
+        \}\par
+        \par
+        .benefit-card:hover \{\par
+            transform: translateY(-5px);\par
+            box-shadow: 0 8px 20px rgba(74, 111, 203, 0.15);\par
+        \}\par
+        \par
+        .benefit-icon \{\par
+            font-size: 2.5rem;\par
+            color: #4a6fcb;\par
+            margin-bottom: 15px;\par
+        \}\par
+        \par
+        .benefit-title \{\par
+            font-weight: 600;\par
+            margin-bottom: 10px;\par
+            color: #2c3e50;\par
+        \}\par
+        \par
+        /* \'ca\'ed\'ee\'ef\'ea\'e0 WhatsApp */\par
+        .whatsapp-section \{\par
+            background: #25D366;\par
+            text-align: center;\par
+            padding: 40px 20px;\par
+        \}\par
+        \par
+        .whatsapp-btn \{\par
+            display: inline-flex;\par
+            align-items: center;\par
+            justify-content: center;\par
+            gap: 15px;\par
+            background: white;\par
+            color: #25D366;\par
+            font-size: 1.3rem;\par
+            font-weight: 700;\par
+            text-decoration: none;\par
+            padding: 18px 35px;\par
+            border-radius: 50px;\par
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);\par
+            transition: all 0.3s;\par
+        \}\par
+        \par
+        .whatsapp-btn:hover \{\par
+            transform: scale(1.05);\par
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);\par
+        \}\par
+        \par
+        /* \'c7\'ee\'ed\'e0 \'f0\'e0\'e1\'ee\'f2\'fb */\par
+        .map-section \{\par
+            background: #f0f7ff;\par
+            padding: 30px 25px;\par
+            text-align: center;\par
+        \}\par
+        \par
+        .areas \{\par
+            display: flex;\par
+            flex-wrap: wrap;\par
+            justify-content: center;\par
+            gap: 15px;\par
+            margin: 20px 0;\par
+        \}\par
+        \par
+        .area-badge \{\par
+            background: white;\par
+            padding: 10px 20px;\par
+            border-radius: 30px;\par
+            font-weight: 600;\par
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);\par
+        \}\par
+        \par
+        .urgent-badge \{\par
+            background: #fff8e1;\par
+            color: #ff9800;\par
+            padding: 15px;\par
+            border-radius: 15px;\par
+            margin-top: 20px;\par
+            font-weight: 700;\par
+        \}\par
+        \par
+        /* \'d4\'f3\'f2\'e5\'f0 */\par
+        footer \{\par
+            background: #2c3e50;\par
+            color: white;\par
+            text-align: center;\par
+            padding: 25px;\par
+        \}\par
+        \par
+        .contact-info \{\par
+            margin: 20px 0;\par
+            font-size: 1.2rem;\par
+        \}\par
+        \par
+        .phone-link \{\par
+            color: #4a6fcb;\par
+            background: white;\par
+            padding: 12px 25px;\par
+            border-radius: 30px;\par
+            text-decoration: none;\par
+            font-weight: 700;\par
+            display: inline-block;\par
+            margin: 10px 0;\par
+            transition: all 0.3s;\par
+        \}\par
+        \par
+        .phone-link:hover \{\par
+            transform: translateY(-3px);\par
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);\par
+        \}\par
+        \par
+        .social-icons \{\par
+            display: flex;\par
+            justify-content: center;\par
+            gap: 20px;\par
+            margin: 20px 0;\par
+        \}\par
+        \par
+        .social-icon \{\par
+            width: 45px;\par
+            height: 45px;\par
+            background: #4a6fcb;\par
+            border-radius: 50%;\par
+            display: flex;\par
+            align-items: center;\par
+            justify-content: center;\par
+            color: white;\par
+            font-size: 1.2rem;\par
+            text-decoration: none;\par
+            transition: all 0.3s;\par
+        \}\par
+        \par
+        .social-icon:hover \{\par
+            transform: scale(1.1);\par
+            background: #25D366;\par
+\par
+JOHNNY SMITH JOHNNY SMITH, [15.07.2025 21:28]\par
+\}\par
+        \par
+        .copyright \{\par
+            margin-top: 20px;\par
+            font-size: 0.9rem;\par
+            opacity: 0.7;\par
+        \}\par
+        \par
+        /* \'c0\'e4\'e0\'ef\'f2\'e8\'e2\'ed\'ee\'f1\'f2\'fc */\par
+        @media (max-width: 600px) \{\par
+            h1 \{ font-size: 1.5rem; \}\par
+            .subtitle \{ font-size: 1rem; \}\par
+            .section \{ padding: 20px 15px; \}\par
+            .benefits-grid \{ grid-template-columns: 1fr; \}\par
+            .contact-badge \{\par
+                position: static;\par
+                margin: 15px auto;\par
+                width: fit-content;\par
+            \}\par
+            .whatsapp-btn \{ font-size: 1.1rem; padding: 15px 25px; \}\par
+        \}\par
+    </style>\par
+</head>\par
+<body>\par
+    <div class="container">\par
+        <!-- \'d8\'e0\'ef\'ea\'e0 -->\par
+        <header>\par
+            <div class="logo">\f2\u-10179?\u-9082?\u8205?\u9794?\u-497?\f0\lang1033 </div>\par
+            <h1>\f1\lang1049\'cf\'f0\'ee\'f4\'e5\'f1\'f1\'e8\'ee\'ed\'e0\'eb\'fc\'ed\'fb\'e9 \'ec\'e0\'f1\'f1\'e0\'e6 \'f1 \'e2\'fb\'e5\'e7\'e4\'ee\'ec \'ed\'e0 \'e4\'ee\'ec</h1>\par
+            <p class="subtitle">\'d1\'ed\'e8\'ec\'e0\'e5\'ec \'e1\'ee\'eb\'fc, \'e2\'ee\'e7\'e2\'f0\'e0\'f9\'e0\'e5\'ec \'eb\'e5\'e3\'ea\'ee\'f1\'f2\'fc, \'ea\'ee\'f0\'f0\'e5\'ea\'f2\'e8\'f0\'f3\'e5\'ec \'f4\'e8\'e3\'f3\'f0\'f3</p>\par
+            <div class="contact-badge">\par
+                <i class="fas fa-phone-alt"></i> 8-924-731-40-06\par
+            </div>\par
+        </header>\par
+        \par
+        <!-- \'d3\'f1\'eb\'f3\'e3\'e8 \'e8 \'f6\'e5\'ed\'fb -->\par
+        <div class="section">\par
+            <h2><i class="fas fa-list"></i> \'cd\'e0\'f8\'e8 \'f3\'f1\'eb\'f3\'e3\'e8 \'e8 \'f6\'e5\'ed\'fb</h2>\par
+            <div class="price-list">\par
+                <div class="price-item">\par
+                    <div class="service-info">\par
+                        <div class="service-name">\'d1\'ef\'e8\'ed\'e0 + \'f8\'e5\'ff (30 \'ec\'e8\'ed)</div>\par
+                        <div class="service-desc">\'c7\'ed\'e0\'ea\'ee\'ec\'f1\'f2\'e2\'ee \'f1 \'ec\'e0\'f1\'f2\'e5\'f0\'ee\'ec</div>\par
+                    </div>\par
+                    <div class="price-tag">1500 \f0\lang1033\u8381?</div>\par
+                </div>\par
+                \par
+                <div class="price-item">\par
+                    <div class="service-info">\par
+                        <div class="service-name">\f1\lang1049\'cb\'e5\'f7\'e5\'e1\'ed\'fb\'e9 \'ec\'e0\'f1\'f1\'e0\'e6 (45 \'ec\'e8\'ed)</div>\par
+                    </div>\par
+                    <div class="price-tag">2500 \f0\lang1033\u8381?</div>\par
+                </div>\par
+                \par
+                <div class="price-item">\par
+                    <div class="service-info">\par
+                        <div class="service-name">\f1\lang1049\'cb\'e5\'f7\'e5\'e1\'ed\'fb\'e9 \'ec\'e0\'f1\'f1\'e0\'e6 (65 \'ec\'e8\'ed)</div>\par
+                    </div>\par
+                    <div class="price-tag">3000 \f0\lang1033\u8381?</div>\par
+                </div>\par
+                \par
+                <div class="price-item">\par
+                    <div class="service-info">\par
+                        <div class="service-name">\f1\lang1049\'d1\'ef\'ee\'f0\'f2\'e8\'e2\'ed\'fb\'e9 / \'cb\'e8\'ec\'f4\'ee\'e4\'f0\'e5\'ed\'e0\'e6 (45 \'ec\'e8\'ed)</div>\par
+                        <div class="service-desc">\'ca\'ee\'f0\'f0\'e5\'ea\'f6\'e8\'ff \'ea\'ee\'ed\'f2\'f3\'f0\'ee\'e2, \'e2\'fb\'e2\'ee\'e4 \'e6\'e8\'e4\'ea\'ee\'f1\'f2\'e8</div>\par
+                    </div>\par
+                    <div class="price-tag">2500 \f0\lang1033\u8381?</div>\par
+                </div>\par
+                \par
+                <div class="price-item">\par
+                    <div class="service-info">\par
+                        <div class="service-name">\f1\lang1049\'c2\'e8\'f1\'f6\'e5\'f0\'e0\'eb\'fc\'ed\'fb\'e9 \'ec\'e0\'f1\'f1\'e0\'e6 (30-40 \'ec\'e8\'ed)</div>\par
+                        <div class="service-desc">\'cd\'ee\'f0\'ec\'e0\'eb\'e8\'e7\'e0\'f6\'e8\'ff \'c6\'ca\'d2, \'f3\'ec\'e5\'ed\'fc\'f8\'e5\'ed\'e8\'e5 \'ee\'e1\'fa\'e5\'ec\'ee\'e2</div>\par
+                    </div>\par
+                    <div class="price-tag">3000 \f0\lang1033\u8381?</div>\par
+                </div>\par
+                \par
+                <div class="price-item">\par
+                    <div class="service-info">\par
+                        <div class="service-name">\f1\lang1049\'c4\'e5\'f2\'f1\'ea\'e8\'e9 \'ec\'e0\'f1\'f1\'e0\'e6 (30 \'ec\'e8\'ed)</div>\par
+                        <div class="service-desc">\'d3\'ea\'f0\'e5\'ef\'eb\'e5\'ed\'e8\'e5 \'e8\'ec\'ec\'f3\'ed\'e8\'f2\'e5\'f2\'e0, \'ea\'ee\'f0\'f0\'e5\'ea\'f6\'e8\'ff \'f2\'ee\'ed\'f3\'f1\'e0</div>\par
+                    </div>\par
+                    <div class="price-tag">1800 \f0\lang1033\u8381?</div>\par
+                </div>\par
+                \par
+                <div class="price-item">\par
+                    <div class="service-info">\par
+                        <div class="service-name">\f1\lang1049\'d0\'e5\'eb\'e0\'ea\'f1 \'f1 \'e0\'f0\'ee\'ec\'e0\'f1\'e2\'e5\'f7\'e0\'ec\'e8 (45 \'ec\'e8\'ed)</div>\par
+                        <div class="service-desc">\'d0\'f3\'f7\'ed\'e0\'ff \'f0\'e0\'e1\'ee\'f2\'e0, \'ea\'ee\'ea\'ee\'f1\'ee\'e2\'fb\'e9 \'e2\'ee\'f1\'ea</div>\par
+                    </div>\par
+                    <div class="price-tag">2500 \f0\lang1033\u8381?</div>\par
+                </div>\par
+                \par
+                <div class="price-item highlight">\par
+                    <div class="service-info">\par
+\par
+JOHNNY SMITH JOHNNY SMITH, [15.07.2025 21:28]\par
+<div class="service-name">\f3\lang1049\u-10179?\u-8923?\f4\lang1033  \f1\lang1049\'ca\'f3\'f0\'f1 7 \'f1\'e5\'e0\'ed\'f1\'ee\'e2</div>\par
+                        <div class="service-desc">\'d1\'ea\'e8\'e4\'ea\'e0 15% \'ed\'e0 \'e2\'f1\'e5 \'f3\'f1\'eb\'f3\'e3\'e8</div>\par
+                    </div>\par
+                    <div class="price-tag">-15%</div>\par
+                </div>\par
+            </div>\par
+        </div>\par
+        \par
+        <!-- \'cf\'f0\'e5\'e8\'ec\'f3\'f9\'e5\'f1\'f2\'e2\'e0 -->\par
+        <div class="section">\par
+            <h2><i class="fas fa-star"></i> \'cf\'ee\'f7\'e5\'ec\'f3 \'e2\'fb\'e1\'e8\'f0\'e0\'fe\'f2 \'ed\'e0\'f1?</h2>\par
+            <div class="benefits-grid">\par
+                <div class="benefit-card">\par
+                    <div class="benefit-icon"><i class="fas fa-graduation-cap"></i></div>\par
+                    <div class="benefit-title">\'dd\'ea\'f1\'ef\'e5\'f0\'f2\'ed\'ee\'f1\'f2\'fc</div>\par
+                    <p>\'ce\'e1\'f3\'f7\'e5\'ed\'e8\'e5 \'f3 \'ce\'eb\'e5\'e3\'e0 \'c7\'fb\'ea\'ee\'e2\'e0 (\'f3\'f7\'e5\'ed\'e8\'ea \'ce\'e3\'f3\'eb\'ee\'e2\'e0, \'cf\'e0\'ea)</p>\par
+                </div>\par
+                \par
+                <div class="benefit-card">\par
+                    <div class="benefit-icon"><i class="fas fa-bolt"></i></div>\par
+                    <div class="benefit-title">\'c1\'fb\'f1\'f2\'f0\'fb\'e9 \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2</div>\par
+                    <p>\'d3\'eb\'f3\'f7\'f8\'e5\'ed\'e8\'e5 \'f1\'e0\'ec\'ee\'f7\'f3\'e2\'f1\'f2\'e2\'e8\'ff \'f3\'e6\'e5 \'f7\'e5\'f0\'e5\'e7 3-5 \'f1\'e5\'e0\'ed\'f1\'ee\'e2</p>\par
+                </div>\par
+                \par
+                <div class="benefit-card">\par
+                    <div class="benefit-icon"><i class="fas fa-home"></i></div>\par
+                    <div class="benefit-title">\'d3\'e4\'ee\'e1\'f1\'f2\'e2\'ee</div>\par
+                    <p>\'cf\'f0\'e8\'e2\'e5\'e7\'b8\'ec \'f1\'f2\'ee\'eb, \'f1\'e2\'e5\'f7\'e8 \'e8 \'e2\'f1\'b8 \'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'ee\'e5 \'ea \'e2\'e0\'ec \'e4\'ee\'ec\'ee\'e9</p>\par
+                </div>\par
+                \par
+                <div class="benefit-card">\par
+                    <div class="benefit-icon"><i class="fas fa-clock"></i></div>\par
+                    <div class="benefit-title">\'c3\'e8\'e1\'ea\'e8\'e9 \'e3\'f0\'e0\'f4\'e8\'ea</div>\par
+                    <p>\'d1\'f0\'ee\'f7\'ed\'fb\'e5 \'e8 \'ed\'ee\'f7\'ed\'fb\'e5 \'e2\'fb\'e5\'e7\'e4\'fb \'ef\'ee \'e4\'ee\'e3\'ee\'e2\'ee\'f0\'b8\'ed\'ed\'ee\'f1\'f2\'e8</p>\par
+                </div>\par
+            </div>\par
+        </div>\par
+        \par
+        <!-- \'ca\'ed\'ee\'ef\'ea\'e0 WhatsApp -->\par
+        <div class="whatsapp-section">\par
+            <a href="https://wa.me/79247314006" class="whatsapp-btn">\par
+                <i class="fab fa-whatsapp"></i> \'c7\'e0\'ef\'e8\'f1\'e0\'f2\'fc\'f1\'ff \'f7\'e5\'f0\'e5\'e7 WhatsApp\par
+            </a>\par
+            <p style="color: white; margin-top: 20px; font-weight: 500; max-width: 500px; margin-left: auto; margin-right: auto;">\par
+                \'cd\'e0\'e6\'ec\'e8\'f2\'e5 \'ea\'ed\'ee\'ef\'ea\'f3, \'f7\'f2\'ee\'e1\'fb \'f1\'f0\'e0\'e7\'f3 \'ed\'e0\'f7\'e0\'f2\'fc \'e4\'e8\'e0\'eb\'ee\'e3 \'e2 WhatsApp \'e8 \'e2\'fb\'e1\'f0\'e0\'f2\'fc \'f3\'e4\'ee\'e1\'ed\'ee\'e5 \'e2\'f0\'e5\'ec\'ff\par
+            </p>\par
+        </div>\par
+        \par
+        <!-- \'c7\'ee\'ed\'e0 \'f0\'e0\'e1\'ee\'f2\'fb -->\par
+        <div class="map-section">\par
+            <h2><i class="fas fa-map-marker-alt"></i> \'d0\'e0\'e9\'ee\'ed \'e2\'fb\'e5\'e7\'e4\'e0</h2>\par
+            <div class="areas">\par
+                <div class="area-badge">\'c4\'e5-\'d4\'f0\'e8\'e7</div>\par
+                <div class="area-badge">\'c7\'e8\'ec\'e0 \'de\'e6\'ed\'e0\'ff</div>\par
+                <div class="area-badge">\'d4\'ee\'f0\'ec\'e0\'f2</div>\par
+                <div class="area-badge">\'c1\'eb\'e8\'e6\'e0\'e9\'f8\'e8\'e5 \'ef\'ee\'f1\'b8\'eb\'ea\'e8</div>\par
+            </div>\par
+            <div class="urgent-badge">\par
+                <i class="fas fa-bolt"></i> \'d1\'f0\'ee\'f7\'ed\'fb\'e5 \'e2\'fb\'e5\'e7\'e4\'fb \f4\emdash  \f1\'ef\'ee \'ef\'f0\'e5\'e4\'e2\'e0\'f0\'e8\'f2\'e5\'eb\'fc\'ed\'ee\'e9 \'e4\'ee\'e3\'ee\'e2\'ee\'f0\'b8\'ed\'ed\'ee\'f1\'f2\'e8\par
+            </div>\par
+        </div>\par
+        \par
+        <!-- \'d4\'f3\'f2\'e5\'f0 -->\par
+        <footer>\par
+            <h3>\'d1\'e2\'ff\'e6\'e8\'f2\'e5\'f1\'fc \'f1 \'ed\'e0\'ec\'e8</h3>\par
+            <div class="contact-info">\par
+                <a href="tel:+79247314006" class="phone-link">\par
+                    <i class="fas fa-phone-alt"></i> 8-924-731-40-06\par
+                </a>\par
+                <p style="margin-top: 15px; opacity: 0.9;">\'c7\'e2\'ee\'ed\'ee\'ea, WhatsApp, Telegram</p>\par
+            </div>\par
+            \par
+            <div class="social-icons">\par
+                <a href="https://wa.me/79247314006" class="social-icon">\par
+                    <i class="fab fa-whatsapp"></i>\par
+                </a>\par
+                <a href="tel:+79247314006" class="social-icon">\par
+                    <i class="fas fa-phone-alt"></i>\par
+                </a>\par
+                <a href="https://t.me/79247314006" class="social-icon">\par
+                    <i class="fab fa-telegram"></i>\par
+                </a>\par
+            </div>\par
+            \par
+            <p class="copyright">\f0\lang1033\'a9 2023 \f1\lang1049\'cf\'f0\'ee\'f4\'e5\'f1\'f1\'e8\'ee\'ed\'e0\'eb\'fc\'ed\'fb\'e9 \'ec\'e0\'f1\'f1\'e0\'e6 \'f1 \'e2\'fb\'e5\'e7\'e4\'ee\'ec \'ed\'e0 \'e4\'ee\'ec. \'c2\'f1\'e5 \'ef\'f0\'e0\'e2\'e0 \'e7\'e0\'f9\'e8\'f9\'e5\'ed\'fb.</p>\par
+        </footer>\par
+    </div>\par
+</body>\par
+</html>\par
+\par
+JOHNNY SMITH JOHNNY SMITH, [16.07.2025 1:39]\par
+<!DOCTYPE html>\par
+<html lang="ru">\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <title>\'cf\'f0\'ee\'f4\'e5\'f1\'f1\'e8\'ee\'ed\'e0\'eb\'fc\'ed\'fb\'e9 \'ec\'e0\'f1\'f1\'e0\'e6 \'f1 \'e2\'fb\'e5\'e7\'e4\'ee\'ec | \'c4\'e5-\'d4\'f0\'e8\'e7, \'c7\'e8\'ec\'e0 \'de\'e6\'ed\'e0\'ff</title>\par
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">\par
+    <style>\par
+        * \{\par
+            margin: 0;\par
+            padding: 0;\par
+            box-sizing: border-box;\par
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\par
+        \}\par
+        \par
+        body \{\par
+            background: #f8f9fa;\par
+            color: #333;\par
+            line-height: 1.6;\par
+            padding: 10px;\par
+        \}\par
+        \par
+        .container \{\par
+            max-width: 800px;\par
+            margin: 20px auto;\par
+            background: white;\par
+            border-radius: 20px;\par
+            overflow: hidden;\par
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);\par
+        \}\par
+        \par
+        /* \'d8\'e0\'ef\'ea\'e0 */\par
+        header \{\par
+            background: linear-gradient(135deg, #4a6fcb 0%, #6a93cb 100%);\par
+            color: white;\par
+            text-align: center;\par
+            padding: 30px 20px;\par
+            position: relative;\par
+        \}\par
+        \par
+        .logo \{\par
+            font-size: 3.5rem;\par
+            margin-bottom: 15px;\par
+        \}\par
+        \par
+        h1 \{\par
+            font-size: 1.8rem;\par
+            margin-bottom: 10px;\par
+            font-weight: 700;\par
+        \}\par
+        \par
+        .subtitle \{\par
+            font-size: 1.1rem;\par
+            opacity: 0.9;\par
+            max-width: 600px;\par
+            margin: 0 auto;\par
+        \}\par
+        \par
+        .contact-badge \{\par
+            background: rgba(255,255,255,0.2);\par
+            padding: 8px 15px;\par
+            border-radius: 30px;\par
+            font-weight: 600;\par
+            display: inline-block;\par
+            margin-top: 15px;\par
+            backdrop-filter: blur(5px);\par
+        \}\par
+        \par
+        /* \'ce\'f1\'ed\'ee\'e2\'ed\'ee\'e9 \'ea\'ee\'ed\'f2\'e5\'ed\'f2 */\par
+        .section \{\par
+            padding: 25px;\par
+            border-bottom: 1px solid #f0f4ff;\par
+        \}\par
+        \par
+        h2 \{\par
+            color: #4a6fcb;\par
+            margin-bottom\f0\lang9\par
+}
+ 
